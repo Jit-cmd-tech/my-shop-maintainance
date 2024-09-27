@@ -93,5 +93,13 @@ body {
     background-size: cover;    
     background-position: center; 
     background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
+.main-part{
+  height:400px;
+  width:400px;
+  background-color: aqua;
+}
