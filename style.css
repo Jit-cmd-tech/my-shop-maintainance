@@ -1,0 +1,82 @@
+.hidden {
+  display: none;
+}
+
+*{
+  cursor: pointer;
+}
+  
+
+/*Here i am writing the css for navbar in the site*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  background-image:url(kslogo.jpeg);
+  background-size: contain;
+  color: white;
+  font-size: 24px;
+}
+/* .logo .img1{
+   background-size: 20px 20px;
+} */
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #333;
+      width: 100%;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+
+  .menu-icon {
+      display: block;
+  }
+}
