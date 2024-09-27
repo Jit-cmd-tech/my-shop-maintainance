@@ -24,8 +24,8 @@ body {
 .logo {
   height: 60px;
   width: 60px;
-  background-image:url(kslogo.jpeg);
-  background-size: contain;
+  background-image:url(download-removebg-preview.png);
+  background-size: cover;
   color: white;
   font-size: 24px;
 }
